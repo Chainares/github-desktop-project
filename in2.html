@@ -6,15 +6,17 @@
     <title>Document</title>
     
     <style>
-       input:focus{
-        background-color: blue;
-       }
+       :target{
+        border: 2px solid green;
+        background-color: yellow;
+    }
     </style>
 </head>
 <body>
-    <form>
-        phone:<input type="tel"><br>
-        e-mail:<input type="email"disabled>
-    </form>
+    <a href="#news1"> con01</a><br>
+    <a href="#news2">con02</a>
+
+    <p id="news1"> con01</p>
+    <p id="news2">con02</p>
 </body>
 </html>
